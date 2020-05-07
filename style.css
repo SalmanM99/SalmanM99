@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    margin: 0px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-links img{
+    width: 20px;
+    margin: 10px;
+}
+.header-para p{
+    text-align: center;
+    color: white;
+    margin: 0px 7px;
+}
+.header-btn button{
+    cursor: pointer;
+    margin: 7px;
+    padding: 7px;
+    background-color: #f5f5f5;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f7f8fa;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    padding: 10px;
+}
+.saylani-logo img{
+    width: 200px;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 5px;
+    font-weight: 800;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 7px;
+    padding: 10px;
+}
+.nav-links a:hover:not(.active){
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+}
+a.active{
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+}
+.profile-pic img{
+    width: 100%;
+}
+.marqu marquee{
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+}
+main{
+    font-family: 'Merriweather', serif;
+}
+.intro{
+    background-color: #f7f8fa;
+    line-height: 30px;
+    color: grey;
+    text-align: justify;
+    padding: 10px 0px 30px 0px;
+}
+.intro p{
+    width: 60%;
+    margin: 10px auto;
+}
+.counter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+    font-size: 32px;
+    padding: 30px;
+    margin:10px 0px;
+}
+.counter div{
+    width: 200px;
+}
+.counter img{
+    width: 120px;
+}
+.work{
+    margin: 0px;
+    text-align: center;
+    background-color: #f7f8fa;
+    padding: 40px 0px;
+}
+.work div{
+    align-content: center;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+    padding: 50px 0px 0px 0px;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 0px 5px grey;
+    color: blue;
+    background-color: white;
+    font-weight: 800;
+}
+.work img{
+    width: 50px;
+}
+.content{
+    padding: 20px;
+    margin: 80px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.mission{
+    width: 900px;
+    
+}
+.mission div{
+    display: inline-flex;
+    width: 300px;
+    margin: 10px 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f7f8fa;
+    color: blue;
+    font-weight: 800;
+}
+.mission img{
+    width: 40px;
+    margin: 10px 40px 10px 10px;
+}
+.mission h1{
+    color: blue;
+}
+.event{
+    width: 400px;
+    
+}
+.event h1{
+    color: blue;
+}
+.event p{
+    color: grey;
+}
+.images{
+    text-align: center;
+    margin: 40px 0px 120px 0px;
+}
+.images img{
+    width: 250px;
+}
+.images img:hover{
+    cursor: pointer;
+    opacity: 0.3;
+}
+footer{
+    background-color: #25272e;
+    color: white;
+    
+}
+.about{
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 800;
+}
+.about div{
+    width: 300px;
+}
+.address p{
+    font-size: 14px;
+    font-weight: normal;
+}
+.address img{
+    width: 20px;
+}
+.contact-us ul{
+    padding: 10px 0px;
+}
+.contact-us li{
+    display: inline-block;
+    list-style-type: none;
+}
+.contact-us img{
+    width: 30px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.copyright{
+    background-color: blue;
+    color: white;
+    margin: 0px;
+}
+.copyright p{
+    margin: 0px;
+    text-align: center;
+}
+.top-btn img{
+    width: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
+   
+}
